@@ -17,7 +17,7 @@ if __name__ == '__main__':
     end = time.time()
     print('Projection time PLS [{:.4f}]'.format(end-start))
 
-    pls_gpu = PLSGPU(pls, X.shape[0])
+    pls_gpu = PLSGPU(pls, batch_size=X.shape[0])
     start = time.time()
     pls_gpu.transform(X)
     end = time.time()
