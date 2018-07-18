@@ -13,7 +13,7 @@ This repository provides a GPU implementation of the Partial Least Squares (PLS)
 [main.py](main.py) provides an example of usage of the PLS GPU. Currently, we do not implement the learning stage, therefore, you need to learn a PLS model using scikit-learn (which is performed in CPU).
 Finally, by experiments, we note that for a small number of samples (for example., 100) the CPU version is slightly faster.
 According to figure, our GPU implementation of the PLS achieves considerable speed-up regarding the CPU version.
-![](Figures/plot.png)
+![](Figures/TimeIssues.png)
 
 ## Parameters
 Our PLSGPU method takes two parameters:
