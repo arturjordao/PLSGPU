@@ -18,5 +18,5 @@ According to figure, our GPU implementation of the PLS achieves considerable spe
 
 ## Parameters
 Our PLSGPU method takes two parameters:
-1. A PLS model learn from scikit-learn (as aforementioned)
+1. A PLS model learnt from scikit-learn (as aforementioned)
 2. Batch size. This parameter controls the number of samples sent to GPU. Note that, larger batch sizes faster the prediction.
